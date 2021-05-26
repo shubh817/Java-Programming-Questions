@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class perimeter_rectangle
+{
+    public static void main(String args[])
+    {
+      Scanner a= new Scanner(System.in);
+      System.out.println("enter the length :");
+      int length=a.nextInt();
+      System.out.println("enter the breadth:");
+      int breadth=a.nextInt();
+      int perimeter=(2*(length+breadth));
+      System.out.println("the perimeter of rectangle is :"+perimeter);
+  }
+}
+
