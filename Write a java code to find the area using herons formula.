@@ -1,0 +1,16 @@
+import java.util.Scanner;
+import java.lang.Math;
+class area_herons_formula{
+public static void main(String args[]){
+Scanner d = new Scanner(System.in);
+System.out.println("enter the first side :");
+double a = d.nextInt();
+System.out.println("enter the second side:");
+double b = d.nextInt();
+System.out.println("enter the third side:");
+double c = d.nextInt();
+double s=(a+b+c)/2;
+double area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
+System.out.println("area of triangle by herons formula:"+area );
+}
+}
